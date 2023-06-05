@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T07:57:58.022Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="XIKsSP3Xc3mW_pIw7auU" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-05T08:19:53.945Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="VNNW9zenvsdy4shpx19H" version="21.2.3" type="github">
   <diagram name="Page-1" id="jDce8scgvmzufm7AibR3">
     <mxGraphModel dx="1379" dy="1888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,14 +28,37 @@
         <mxCell id="gqjCp5_v7W5h1C-Nc97L-4" value="SubNet" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks_Classic.svg;" vertex="1" parent="1">
           <mxGeometry x="660" y="450" width="67" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gqjCp5_v7W5h1C-Nc97L-5" target="gqjCp5_v7W5h1C-Nc97L-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gqjCp5_v7W5h1C-Nc97L-5" value="NSG" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" vertex="1" parent="1">
           <mxGeometry x="500" y="120" width="56.00000000000001" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.072;entryY=0.328;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gqjCp5_v7W5h1C-Nc97L-6" target="gqjCp5_v7W5h1C-Nc97L-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="154" />
+              <mxPoint x="720" y="269" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="gqjCp5_v7W5h1C-Nc97L-6" value="NIC" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/NetworkInterfaceCard.svg;" vertex="1" parent="1">
           <mxGeometry x="622.5" y="129" width="44" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.015;entryY=0.558;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gqjCp5_v7W5h1C-Nc97L-7" target="gqjCp5_v7W5h1C-Nc97L-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gqjCp5_v7W5h1C-Nc97L-7" value="Azure VM&lt;br&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
           <mxGeometry x="610" y="248" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.015;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gqjCp5_v7W5h1C-Nc97L-12" target="gqjCp5_v7W5h1C-Nc97L-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-12" value="RRPS Users" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" vertex="1" parent="1">
+          <mxGeometry x="10" y="241" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gqjCp5_v7W5h1C-Nc97L-9" target="gqjCp5_v7W5h1C-Nc97L-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
