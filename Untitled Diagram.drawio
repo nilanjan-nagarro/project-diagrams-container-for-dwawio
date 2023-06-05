@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T07:33:27.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" version="21.2.3" etag="uKoyyLdBUq8IhQiYBs17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-05T07:57:58.022Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="XIKsSP3Xc3mW_pIw7auU" version="21.2.3" type="github">
   <diagram name="Page-1" id="jDce8scgvmzufm7AibR3">
-    <mxGraphModel>
+    <mxGraphModel dx="1379" dy="1888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-10" value="Resource Group" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#919191;strokeWidth=2;dashed=1;container=1;collapsible=0;expand=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="160" width="680" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-11" value="Resource Group&lt;br&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="gqjCp5_v7W5h1C-Nc97L-10">
+          <mxGeometry x="10" y="10" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-9" value="Public IP" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Public_IP_Addresses.svg;" vertex="1" parent="gqjCp5_v7W5h1C-Nc97L-10">
+          <mxGeometry x="40" y="120" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-8" value="Storage Account" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" vertex="1" parent="gqjCp5_v7W5h1C-Nc97L-10">
+          <mxGeometry x="40" y="400" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#007FFF;dashPattern=1 1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="480" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-1" value="VNet" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+          <mxGeometry x="710" y="500" width="67" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;strokeColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="530" y="70" width="230" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-4" value="SubNet" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks_Classic.svg;" vertex="1" parent="1">
+          <mxGeometry x="660" y="450" width="67" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-5" value="NSG" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="56.00000000000001" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-6" value="NIC" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/NetworkInterfaceCard.svg;" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="129" width="44" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gqjCp5_v7W5h1C-Nc97L-7" value="Azure VM&lt;br&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
+          <mxGeometry x="610" y="248" width="69" height="64" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
